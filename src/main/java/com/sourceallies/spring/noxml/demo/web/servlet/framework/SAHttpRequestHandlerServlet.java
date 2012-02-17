@@ -1,5 +1,5 @@
 /**
- * SAIHttpRequestHandlerServlet.java
+ * SAHttpRequestHandlerServlet.java
  * Feb 15, 2012
  */
 package com.sourceallies.spring.noxml.demo.web.servlet.framework;
@@ -28,10 +28,10 @@ import com.sourceallies.spring.noxml.demo.initializer.ApplicationContextInitiali
  * 
  */
 @SuppressWarnings("serial")
-public class SAIHttpRequestHandlerServlet extends HttpServlet {
+public class SAHttpRequestHandlerServlet extends HttpServlet {
 
 	private static final Logger LOGGER = Logger
-			.getLogger(SAIHttpRequestHandlerServlet.class.getName());
+			.getLogger(SAHttpRequestHandlerServlet.class.getName());
 
 	private static final String DISPATCHER_CONTEXT_ATTRIBUTE_NAME = FrameworkServlet.SERVLET_CONTEXT_PREFIX
 			+ ApplicationContextInitializer.DISPATCHER_SERVLET_NAME;

@@ -7,7 +7,7 @@
 <title>Hello</title>
 </head>
 <body>
-	<h1>Hello Page</h1>
+	<h1>Hello Page: ${helloMsg}</h1>
 	<h4>
 		Now:<u>${now}</u>
 	</h4>

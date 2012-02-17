@@ -51,6 +51,7 @@ public class HelloController implements Serializable {
 		LOGGER.info("Hello service: " + service);
 		LOGGER.info("Hello  >>>>>>>>>>>>>>>.");
 		model.addAttribute("now", new Date());
+		model.addAttribute("helloMsg", service.sayHello("World!"));
 		return "hello";
 	}
 }

@@ -49,7 +49,7 @@ public class AnnotatedHttpServletRequestHandler implements HttpRequestHandler {
 		LOGGER.info(">>>>>>>>> Greeting Controller: " + greetingController);
 		LOGGER.info(">>>>>>>>> Service: " + helloService);
 		writer.write("<html><head></head><body><h1>Servlet using pure Java / No web.xml!</h1><h2>"
-				/* + helloController.hello(null, null) */+ "</h2></body></html>");
+				+ helloController.hello(null, null) + "</h2></body></html>");
 	}
 
 }

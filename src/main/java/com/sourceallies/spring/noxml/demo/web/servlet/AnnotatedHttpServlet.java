@@ -13,13 +13,13 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.FrameworkServlet;
 
 import com.sourceallies.spring.noxml.demo.initializer.ApplicationContextInitializer;
-import com.sourceallies.spring.noxml.demo.web.servlet.framework.SAIHttpRequestHandlerServlet;
+import com.sourceallies.spring.noxml.demo.web.servlet.framework.SAHttpRequestHandlerServlet;
 
 /**
  * Servlet implementation class AnnotatedHttpServlet
  */
 @WebServlet(description = "Http Servlet using pure java / annotations", urlPatterns = { "/annotatedServlet" }, name = "annotatedServletHandler")
-public class AnnotatedHttpServlet extends SAIHttpRequestHandlerServlet {
+public class AnnotatedHttpServlet extends SAHttpRequestHandlerServlet {
 	private static final long serialVersionUID = 1L;
 
 	private static final Logger LOGGER = Logger
